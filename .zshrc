@@ -27,9 +27,9 @@ alias gd="git difftool"
 alias grh!="git reset --hard"
 alias grh!!="git add . && git reset --hard"
 alias gpu="git push -u origin $(git branch --show-current)"
-alias gjp="~/repos/useful_scripts/just_push.sh"
-alias gmmaster="~/repos/useful_scripts/checkout_pull_and_merge.sh master"
-alias gmm="~/repos/useful_scripts/checkout_pull_and_merge.sh"
+alias gjp="~/.useful_scripts/just_push.sh"
+alias gmmaster="~/.useful_scripts/checkout_pull_and_merge.sh master"
+alias gmm="~/.useful_scripts/checkout_pull_and_merge.sh"
 
 alias gitdot="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 
