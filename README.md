@@ -28,10 +28,7 @@ Usage: `gmm main` or `gmm # defaults to master`
 This script solves the workflow of
 - `git checkout master`
 - `git pull`
-- Shit what was the branch I was just on?
-- Scroll back through terminal history to find branch name
-- Branch name may be long, need to copy paste it in
-- `git checkout starting_branch`
+- `git checkout -`
 - `git merge master`
 
 With this script, it will go to the master branch, pull changes, hop back onto your original branch, and merge
