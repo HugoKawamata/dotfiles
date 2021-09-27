@@ -30,9 +30,13 @@ alias gpu="git push -u origin $(git branch --show-current)"
 alias gjp="~/.useful_scripts/just_push.sh"
 alias gmmaster="~/.useful_scripts/checkout_pull_and_merge.sh master"
 alias gmm="~/.useful_scripts/checkout_pull_and_merge.sh"
+alias undo-commit="git reset --soft HEAD~1"
+alias gchain='~/.useful_scripts/merge_chain.sh'
 
+# Use instead of `git` when committing to the dotfiles repo
 alias gitdot="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 
+alias vim-zshrc="vim ~/.zshrc"
 alias zsh-refresh="source ~/.zshrc"
 alias reload-zsh="source ~/.zshrc"
 
@@ -41,6 +45,7 @@ alias issei-s='cd ~/repos/holistic-server'
 alias issei-a='cd ~/repos/holistic-japanese'
 
 alias build-apk='cd android && ./gradlew assembleRelease && cd ..'
+alias rake='noglob rake'
 
 alias tanda-ssh='ssh ruby@3.105.118.174'
 alias tanda-sync='cd ~/TandaRepos/payaus && ./useful_scripts/dev-server/sync-aws.sh 3.105.118.174'
